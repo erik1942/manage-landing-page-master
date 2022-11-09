@@ -1,0 +1,13 @@
+{
+  "name": "manage-landing-page-master",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^8.0.2",
+    "lint-staged": "^13.0.3",
+    "live-server": "^1.2.2",
+    "prettier": "^2.7.1"
+  },
+  "scripts": {"start": "live-server index.html"}
+}
