@@ -11,6 +11,7 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="styles.css" />
 
     <title>Frontend Mentor | Manage landing page</title>
 
@@ -28,7 +29,7 @@
   <body>
     <header>
       <picture>
-        <img src="./images/log.svg" alt="" />
+        <img src="./images/logo.svg" alt="logo image" />
       </picture>
       <nav>
         <a href="#">Pricing</a>
@@ -37,7 +38,7 @@
         <a href="#">Careers</a>
         <a href="#">Community</a>
       </nav>
-      <button>Get Started</button>
+      <button class="btn">Get Started</button>
     </header>
     <main>
       <section>
@@ -59,7 +60,7 @@
           teams.
         </p>
         <article>
-          <div>01</div>
+          <div class="bullets">01</div>
           <h3>Track company-wide progress</h3>
           <p>
             See how your day-to-day tasks fit into the wider vision. Go from
@@ -68,7 +69,7 @@
           </p>
         </article>
         <article>
-          <div>02</div>
+          <div class="bullets">02</div>
           <h3>Advanced built-in reports</h3>
           <p>
             Set internal delivery estimates and track progress toward company
@@ -77,7 +78,7 @@
           </p>
         </article>
         <article>
-          <div>03</div>
+          <div class="bullets">03</div>
           <h3>Everything you need in one place</h3>
           <p>
             Stop jumping from one service to another to communicate, store
@@ -121,9 +122,11 @@
             talk to!”
           </p>
         </article>
-        <button>Get Started</button>
+        <button class="btn">Get Started</button>
       </section>
-      <aside>Simplify how your team works today.</aside>
+      <aside>
+        <h2 id="white">Simplify how your team works today.</h2>
+      </aside>
       <button>Get Started</button>
     </main>
     <footer>
@@ -161,9 +164,8 @@
 
       <form action="backend" method="post">
         <input type="text" placeholder="Updates in your inbox" />
-        <input type="submit" value="Go" />
+        <input class="btn" type="submit" value="Go" />
       </form>
-      <button>Request Invite</button>
 
       <p>Copyright 2020. All Rights Reserved</p>
     </footer>

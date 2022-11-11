@@ -9,5 +9,5 @@
     "live-server": "^1.2.2",
     "prettier": "^2.7.1"
   },
-  "scripts": {"start": "live-server index.html"}
+  "scripts": {"start": "live-server ."}
 }
