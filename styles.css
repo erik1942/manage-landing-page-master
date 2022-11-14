@@ -1,9 +1,20 @@
 .btn {
   background-color: orangered;
+  border: 1px solid orangered;
+  border-radius: 15px;
+  padding: 8px;
+  color: white;
+  width: 120px;
 }
 
 .bullets {
   background-color: orangered;
+  border: 1px solid orangered;
+  border-radius: 15px;
+  padding: 5px;
+  color: white;
+  width: 35px;
+  text-align: center;
 }
 
 footer {
