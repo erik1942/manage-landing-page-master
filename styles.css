@@ -1,29 +1,61 @@
-.btn {
-  background-color: orangered;
-  border: 1px solid orangered;
-  border-radius: 15px;
-  padding: 8px;
-  color: white;
-  width: 120px;
+html {
+  font-size: 62.5%;
 }
 
-.bullets {
-  background-color: orangered;
-  border: 1px solid orangered;
-  border-radius: 15px;
-  padding: 5px;
-  color: white;
-  width: 35px;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Public Sans", sans-serif;
+}
+
+/*
+.nav {
+  background: linear-gradient(
+    180deg,
+    #2d314d 0%,
+    rgba(45, 49, 77, 0.0001) 100%
+  );
+  position: absolute;
+  top: 64px;
+  left: -100vw;
+  width: 100vw;
+  height: 100vh;
+  padding: 24px;
+}
+.nav .links {
+  background-color: var(--color-white);
+}
+
+.nav a {
+  display: block;
+  padding: 12px 0px;
+}
+
+.typography-links {
+  font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: -0.014rem;
+}*/
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.main__picture {
+  width: 318px;
+  height: 286px;
+}
+
+.main-section {
   text-align: center;
+  letter-spacing: -0.071rem;
 }
-
-footer {
-  background-color: rgb(55, 58, 58);
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-aside {
-  background-color: orangered;
-}
-#white {
-  color: white;
+.header .logo {
+  height: 20px;
 }

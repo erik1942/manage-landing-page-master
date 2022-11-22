@@ -28,29 +28,33 @@
   </head>
   <body>
     <header>
-      <picture>
+      <picture class="logo">
         <img src="./images/logo.svg" alt="logo image" />
       </picture>
-      <nav>
-        <a href="#">Pricing</a>
-        <a href="#">Product</a>
-        <a href="#">About Us</a>
-        <a href="#">Careers</a>
-        <a href="#">Community</a>
+      <nav class="nav">
+        <div class="links flex-column">
+          <a href="#" class="typography-links">Pricing</a>
+          <a href="#" class="typography-links">Product</a>
+          <a href="#" class="typography-links">About Us</a>
+          <a href="#" class="typography-links">Careers</a>
+          <a href="#" class="typography-links">Community</a>
+        </div>
       </nav>
       <button class="btn">Get Started</button>
     </header>
     <main>
       <section>
-        <h1>Bring everyone together to build better products.</h1>
-        <p>
-          Manage makes it simple for software teams to plan day-to-day tasks
-          while keeping the larger team goals in view.
-        </p>
-        <button class="btn">Get Started</button>
-        <picture>
-          <img src="./images/illustration-intro.svg" alt="graficas" />
-        </picture>
+        <div class="main-section flex-column">
+          <picture class="main__picture">
+            <img src="./images/illustration-intro.svg" alt="graficas" />
+          </picture>
+          <h1>Bring everyone together to build better products.</h1>
+          <p>
+            Manage makes it simple for software teams to plan day-to-day tasks
+            while keeping the larger team goals in view.
+          </p>
+          <button class="btn">Get Started</button>
+        </div>
       </section>
       <section>
         <h2>What's different about Manage?</h2>
